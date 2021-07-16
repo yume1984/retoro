@@ -1,0 +1,99 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  height: 200px; 
+  text-align: center; 
+  background: linear-gradient(#ffaa00,#ffffff) ;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position:flex;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+  margin-left:10px;
+}
+
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.glovalNavigation{
+  position:relative;
+  height: 1500px; 
+  text-align: center; 
+  background: linear-gradient(#ffffff,#ffaa00) ;
+  color: #fff;
+}
+.main{
+  min-height:100vh;
+  display:flex;
+  margin-top:10px
+}
+.content{
+  flex: 1;
+  background-color: #eee;
+  text-align: center;
+  margin-left: 10px;
+}
+.localNavigation{
+  height: 1000px;
+  text-align: center;
+  background-color: #888;
+  color: #fff;
+}
+.footer{
+  height: 70px;
+  text-align: center;
+  background-color: #eee;
+}
+.top-v{
+  height:500px;
+  width:1000px;
+  margin-right:50px;
+  margin-left:50px;
+}
+.women{
+  height: 80px;
+  width:50px;
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  display:flex;
+
+}
+img.women:hover{
+ 
+	opacity:0.5;
+	cursor: pointer;
+}
+ 
+img.women:active{
+ 
+	position: absolute;
+	top: 83px;
+ 
+}
